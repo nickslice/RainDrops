@@ -406,7 +406,7 @@ nav.active {
   z-index: -1;
   transition: 0.8s;
   bottom: 0;
-  border-radius: 50% 50% 0 0;
+/*   border-radius: 50% 50% 0 0; */
   height: 180%;
 }
 
