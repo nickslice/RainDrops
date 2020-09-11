@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav__burger.active:before {
   transform: rotate(45deg);
-  top: 8px;
+  top: 9px;
 }
 
 .nav__burger.active:after {
