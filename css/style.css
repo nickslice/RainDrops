@@ -417,7 +417,7 @@ nav.active {
 
   /*Анимация заполнения кнопки синим цветом*/
   .button__text:hover {
-    color: #157efb;
+/*     color: #157efb; */
     background-color: #B2EBF2;
     border-bottom: none;
     top: -4px;
