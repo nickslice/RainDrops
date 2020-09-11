@@ -406,7 +406,7 @@ nav.active {
   z-index: -1;
   transition: 0.8s;
   bottom: 0;
-/*   border-radius: 50% 50% 0 0; */
+  border-radius: 50% 50% 0 0;
   height: 180%;
 }
 
@@ -421,15 +421,15 @@ nav.active {
     background-color: #B2EBF2;
     border-bottom: none;
     top: -4px;
-    box-shadow: 0 3px 0px 0 #157efb;
-    filter: drop-shadow(0px 5px 5px #157efb);
+/*     box-shadow: 0 3px 0px 0 #157efb; */
+/*     filter: drop-shadow(0px 5px 5px #157efb); */
   }
 
   .button__text:active {
     /*Анимация нажатия кнопки*/
     top: -1px;
     transition: all 0.1s ease 0s;
-    box-shadow: 0 1px 0px 0 #157efb;
+/*     box-shadow: 0 1px 0px 0 #157efb; */
     filter: none;
   }
 
