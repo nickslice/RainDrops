@@ -391,7 +391,7 @@ nav.active {
 }
 @media (max-width: 767px) {
   .button__text {
-/*     border-radius: 50px; */
+    border-radius: 50px;
     padding-top: 5px;
     font-size: 20px;
   }
@@ -408,7 +408,7 @@ nav.active {
   z-index: -1;
   transition: 0.8s;
   bottom: 0;
-  border-radius: 50% 50% 0 0;
+/*   border-radius: 50% 50% 0 0; */
   height: 180%;
 }
 
