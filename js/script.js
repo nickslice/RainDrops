@@ -2,11 +2,24 @@
 const burger = document.querySelector('.nav__burger');
 const menuLinks = document.querySelector('nav');
 const body = document.querySelector('body');
+const menuLink = document.querySelector('.menu__link');
 
 burger.addEventListener("click", () => {
 	menuLinks.classList.toggle("active");
 	burger.classList.toggle("active");
-	body.classList.toggle("lock");
+	body.classList.toggle("lock");	
+});
+// menuLink.addEventListener("click", () => {
+// 	menuLinks.classList.remove("active");
+// 	burger.classList.remove("active");
+// 	body.classList.remove("lock");	
+// });
+
+$('.menu__link').on('click', function(){
+    $('nav').removeClass('active');
+    $('.nav__burger').removeClass('active');
+    $('body').removeClass('lock');
+
 });
 //=======================================================================//
 // Анимация при скролле
