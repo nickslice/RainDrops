@@ -253,7 +253,6 @@ nav.active{
 	}
 }
 .button {
-	background-color: #157efb;
 	height: 50px;
 	border-radius: 30px;
 
@@ -292,21 +291,18 @@ nav.active{
 	position: relative;
 	height: 100%;
 	width: 100%;
-	// display: inline-block;
-
-	display: block;
-
+	display: inline-block;
 	overflow: hidden;
 	font-size: 24px;
 	color: #B3E5FC;
 	border-radius: 30px;
-
+	background: #157efb;
 	-webkit-border-radius: 30px;
 
    transition: all 0.5s ;
    @media (max-width: 767px){
    	-webkit-border-radius: 50px;
-   	
+   	background: #157efb;
    	border-radius: 50px;
    	padding-top: 5px;
    	font-size: 20px;
@@ -320,7 +316,7 @@ nav.active{
 	height: 0%;
 
 	background: #157efb;
-	
+
 	z-index: -1;
 	transition: 0.8s;
 	bottom: 0;
