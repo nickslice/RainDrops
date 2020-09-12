@@ -409,7 +409,6 @@ nav.active {
     position: absolute;
     left: 0;
     width: 100%;
-    height: 0%;
     background: #157efb;
     z-index: -1;
     transition: 0.8s;
